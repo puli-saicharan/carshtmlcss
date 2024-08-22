@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>practice</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-rows:350px 350px  ;
+            grid-template-columns: 350px 350px 350px 350px;
+            gap: 10px;
+            /* background-image: url("Cars.avif");
+            background-size: cover; */
+        }
+        .child{
+             /* height: 200px;
+            width: 200px; */
+            border: 1px solid black;
+            
+        }
+        .c1{
+        
+            background-image: url("https://imgs.search.brave.com/JGhqV6BVGlmoWhrSOTDkNFojJgeYXoVFvwKEyakzHFo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Vz/L2xhcmdlLXByZXZp/ZXdzL2UyYS9jYXIt/MTQ1MDU1My5qcGc_/Zm10");
+            background-size: cover;
+        }
+        .c2{
+            background-image: url("https://imgs.search.brave.com/rNtyumEozi02kiBBRKhkmbf5CFetcJE0PM-RXw9V3XU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by92/aWV3LXRocmVlLWRp/bWVuc2lvbmFsLWNh/ci13aXRoLWRlc2Vy/dC1sYW5kc2NhcGVf/MjMtMjE1MTAwNTMx/NS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw");
+            background-size: cover;
+        }
+        .c3{
+            background-image: url("https://imgs.search.brave.com/iMTJRdmg9albMk4ZFZ0FPfQZ4j0xlDgtyOd6JV7sIpA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by92/aWV3LTNkLWNhci13/aXRoLWFic3RyYWN0/LWxhbmRzY2FwZV8y/My0yMTUxMDA1Mjcw/LmpwZz9zaXplPTYy/NiZleHQ9anBn");
+            background-size: cover;
+        }
+        .c4{
+            background-image: url("https://imgs.search.brave.com/ZA0jm9bdC6D-Pq--1I3kvKK21tjkvY62_X1tpgQMj0k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jb21wYWN0LWNv/bW11dGluZy1pbnNp/Z2h0cy11cmJhbi1j/b252ZW5pZW5jZS10/aHJvdWdoLWlsbHVz/dHJhdGVkLWNvbXBh/Y3QtY2Fyc183NzIy/OTgtMTAzMDkuanBn");
+            background-size: cover;
+        }
+        .c5{
+            background-image: url("https://imgs.search.brave.com/ChMtWd5i3rLudWIGtGrcweisCh-w24_ID5S_rplPecg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/YXJ0b29uLXNtb2tl/LXdpdGgtY2FyXzIz/LTIxNTEyMzQ4NjYu/anBn");
+            background-size: cover;
+        }
+        .c6{
+            background-image: url("https://imgs.search.brave.com/JN13OgrYe3F7Oq8nKGdDRCGKCMhkv62s1HIpWfA_gEY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by92/aWV3LXRocmVlLWRp/bWVuc2lvbmFsLWNh/ci13aXRoLW5hdHVy/ZS1sYW5kc2NhcGVf/MjMtMjE1MTAwNTMx/Ni5qcGc_c2l6ZT02/MjYmZXh0PWpwZw");
+            background-size: cover;
+        }
+        .c7{
+            background-image: url("https://imgs.search.brave.com/-G-wWe9IhEsXmA7HJNsp0QzmNVcy7VmCkz1ZRP0sSR8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk0LzI3LzM0/LzM2MF9GXzY5NDI3/MzQyM183NTgxNTl6/VEhPUG1NUkh4dmJq/aWxyNXJKS0VMSjBT/Vy5qcGc");
+            background-size: cover;
+        }
+        .c8{
+            background-image: url("https://imgs.search.brave.com/qJh9IWVkbCOeT9POOMXC7rqJIREzy122VINQbtK5NGU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by92aW50YWdlLWNh/ci1pcy1wYXJrZWQt/c3RyZWV0LWZyb250/LWJ1aWxkaW5nXzkw/ODg0Ni0xOTQ2OC5q/cGc");
+            background-size: cover;
+        }
+    </style>
+    <body>
+        <div class="parent">
+            <div class="child c1"></div>
+            <div class="child c2"></div>
+            <div class="child c3"></div>
+            <div class="child c4"></div>
+            <div class="child c5"></div>
+            <div class="child c6"></div>
+            <div class="child c7"></div>
+            <div class="child c8"></div>
+            <!-- <div class="child"></div>
+            <div class="child"></div> -->
+
+        </div>
+        
+    </body>
